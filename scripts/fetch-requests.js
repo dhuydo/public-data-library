@@ -1,7 +1,7 @@
 async function fetchRequests() {
-    const response = await fetch('https://api.airtable.com/v0/app1234567/Requests', {
+    const response = await fetch('https://api.airtable.com/v0/appE9FY7u0IchK4bd/User%20Request', {
         headers: {
-            Authorization: 'Bearer YOUR_AIRTABLE_API_KEY'
+            Authorization: 'Bearer patHUkxTVbBvHCOM5.fe08a12c506dcf5f4f4d2a2e41992933060d952d981d8e046bd6fa4e02767d71'
         }
     });
     const data = await response.json();
