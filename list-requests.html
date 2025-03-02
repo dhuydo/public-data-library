@@ -1,12 +1,28 @@
+<!-- public-data-library/list-requests.html -->
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-    <title>Danh sách yêu cầu dữ liệu - OpenDataX</title>
-    <script src="scripts/fetch-requests.js"></script>
+    <title>Danh sách yêu cầu - OpenDataX</title>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <h1>Danh sách yêu cầu dữ liệu mới nhất</h1>
-    <ul id="requestList">Đang tải dữ liệu...</ul>
-    <a href="request.html">Gửi yêu cầu mới</a>
+    <header>
+        <h1>Danh sách yêu cầu dữ liệu</h1>
+        <a href="index.html">Trang chủ</a>
+    </header>
+    <main>
+        <table id="requestsTable">
+            <thead>
+                <tr>
+                    <th>Nickname</th>
+                    <th>Mô tả yêu cầu</th>
+                    <th>Thời gian gửi</th>
+                    <th>File</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="assets/script.js"></script>
 </body>
 </html>

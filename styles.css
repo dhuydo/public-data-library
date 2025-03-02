@@ -1,17 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fafafa;
-    color: #333;
-    padding: 20px;
-}
-h1, h2 {
-    color: #000;
-}
-nav a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #0070f3;
-}
-iframe {
-    border: 1px solid #ddd;
-}
+/* public-data-library/assets/styles.css */
+body { font-family: Arial, sans-serif; margin: 20px; }
+header { background: #f7f7f7; padding: 10px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ddd; padding: 8px; }
+th { background: #f0f0f0; }
