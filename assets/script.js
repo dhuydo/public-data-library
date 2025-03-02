@@ -59,10 +59,11 @@ if (document.getElementById('requestsTable')) {
 }
 
 async function uploadFile(path, file) {
-    const url = `${SUPABASE_URL}/storage/v1/object/${path}`;
+    const bucket = 'requests';
+    const url = `${SUPABASE_URL}/storage/v1/object/public/requests/${path}`;
     const response = await fetch(url, {
         method: 'PUT',
-        headers: { 'apikey': SUPABASE_KEY, 'Authorization': `Bearer ${SUPABASE_KEY}` },
+        headers: { 'Content-Type': file.type, 'apikey': SUPABASE_KEY, 'Authorization': `Bearer ${SUPABASE_KEY}` },
         body: file
     });
     if (!response.ok) return { error: true };
