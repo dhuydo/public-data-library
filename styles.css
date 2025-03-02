@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    padding: 20px;
+}
+h1, h2 {
+    color: #000;
+}
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0070f3;
+}
+iframe {
+    border: 1px solid #ddd;
+}
